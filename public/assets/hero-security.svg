@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 720" fill="none" role="img" aria-label="Central de monitoramento inteligente Tecsafe com CFTV, alarmes e controle de acesso">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="600" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#071124"/>
+      <stop offset="55%" stop-color="#050914"/>
+      <stop offset="100%" stop-color="#03050A"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="35%" r="48%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="25%" cy="75%" r="45%">
+      <stop offset="0%" stop-color="#0057FF" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#0057FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shieldStroke" x1="180" y1="120" x2="420" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#0057FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="720" fill="url(#bg)"/>
+  <rect width="600" height="720" fill="url(#glowCyan)"/>
+  <rect width="600" height="720" fill="url(#glowBlue)"/>
+  <!-- Subtle architectural grid -->
+  <g stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1">
+    <path d="M0 90H600M0 180H600M0 270H600M0 360H600M0 450H600M0 540H600M0 630H600"/>
+    <path d="M100 0V720M200 0V720M300 0V720M400 0V720M500 0V720"/>
+  </g>
+  <!-- Top HUD -->
+  <rect x="36" y="36" width="528" height="52" rx="14" fill="#0A1224" fill-opacity="0.85" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <circle cx="64" cy="62" r="5" fill="#22C55E"/>
+  <text x="80" y="66" fill="#E5E7EB" font-family="ui-monospace, SFMono-Regular, monospace" font-size="13" letter-spacing="1.5">TECSAFE // MONITORAMENTO 24H</text>
+  <text x="488" y="66" fill="#00F0FF" font-family="ui-monospace, SFMono-Regular, monospace" font-size="12" text-anchor="end">ONLINE</text>
+  <!-- Radar rings -->
+  <circle cx="300" cy="290" r="165" stroke="#00F0FF" stroke-opacity="0.14" stroke-dasharray="6 8"/>
+  <circle cx="300" cy="290" r="120" stroke="#0057FF" stroke-opacity="0.28"/>
+  <circle cx="300" cy="290" r="78" stroke="#00F0FF" stroke-opacity="0.35"/>
+  <!-- Central Shield -->
+  <path d="M300 164L204 204V286C204 352 246 406 300 426C354 406 396 352 396 286V204L300 164Z" fill="#061229" fill-opacity="0.92" stroke="url(#shieldStroke)" stroke-width="3"/>
+  <path d="M300 190L228 220V284C228 336 260 378 300 395C340 378 372 336 372 284V220L300 190Z" fill="#0057FF" fill-opacity="0.12" stroke="#00F0FF" stroke-opacity="0.25"/>
+  <!-- Camera lens symbol inside shield -->
+  <circle cx="300" cy="288" r="36" fill="#03050A" stroke="#00F0FF" stroke-width="2.5"/>
+  <circle cx="300" cy="288" r="18" fill="#0057FF" fill-opacity="0.35" stroke="#00F0FF" stroke-width="1.5"/>
+  <circle cx="300" cy="288" r="6" fill="#00F0FF"/>
+  <!-- Telemetry nodes -->
+  <g fill="#0A1224" stroke="#00F0FF" stroke-opacity="0.45">
+    <rect x="44" y="486" width="156" height="84" rx="16"/>
+    <rect x="222" y="486" width="156" height="84" rx="16"/>
+    <rect x="400" y="486" width="156" height="84" rx="16"/>
+  </g>
+  <text x="64" y="518" fill="#00F0FF" font-family="ui-monospace, monospace" font-size="11">CFTV IP 4K</text>
+  <text x="64" y="544" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="17" font-weight="700">16 Canais</text>
+  <text x="242" y="518" fill="#00F0FF" font-family="ui-monospace, monospace" font-size="11">ACESSO FACIAL</text>
+  <text x="242" y="544" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="17" font-weight="700">&lt; 0.3s Auth</text>
+  <text x="420" y="518" fill="#00F0FF" font-family="ui-monospace, monospace" font-size="11">PERÍMETRO</text>
+  <text x="420" y="544" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="17" font-weight="700">100% Ativo</text>
+  <!-- Bottom status bar -->
+  <rect x="44" y="596" width="512" height="72" rx="18" fill="#0A1224" fill-opacity="0.9" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="72" y="628" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="15" font-weight="700">TECSAFE SEGURANÇA ELETRÔNICA</text>
+  <text x="72" y="650" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="12">CFTV • Alarmes • Biometria Facial • Interfonia • Automação</text>
+</svg>

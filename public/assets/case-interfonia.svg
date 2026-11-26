@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 800" fill="none" role="img" aria-label="Case de modernização de interfonia condominial antes e depois">
+  <defs>
+    <linearGradient id="case1Bg" x1="0" y1="0" x2="450" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1325"/>
+      <stop offset="100%" stop-color="#03050A"/>
+    </linearGradient>
+  </defs>
+  <rect width="450" height="800" fill="url(#case1Bg)"/>
+  <!-- Split comparison -->
+  <rect x="28" y="88" width="394" height="296" rx="20" fill="#140D12" stroke="#EF4444" stroke-opacity="0.35"/>
+  <text x="52" y="124" fill="#FCA5A5" font-family="ui-monospace, monospace" font-size="12" font-weight="700">ANTES // CABEAMENTO DESORGANIZADO</text>
+  <path d="M56 170C120 260 200 130 270 240C320 310 360 180 394 250" stroke="#EF4444" stroke-opacity="0.55" stroke-width="3" stroke-dasharray="8 6"/>
+  <path d="M56 240C150 150 220 310 300 190C340 140 375 290 394 210" stroke="#F97316" stroke-opacity="0.45" stroke-width="2.5"/>
+  <text x="52" y="352" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="13">Quedas de áudio, emendas expostas e falha recorrente</text>
+
+  <rect x="28" y="416" width="394" height="340" rx="20" fill="#061423" stroke="#00F0FF" stroke-opacity="0.45"/>
+  <text x="52" y="452" fill="#00F0FF" font-family="ui-monospace, monospace" font-size="12" font-weight="700">DEPOIS // PADRÃO TECSAFE</text>
+  <rect x="52" y="484" width="346" height="44" rx="10" fill="#0A1A30" stroke="#00F0FF" stroke-opacity="0.3"/>
+  <rect x="52" y="544" width="346" height="44" rx="10" fill="#0A1A30" stroke="#0057FF" stroke-opacity="0.4"/>
+  <rect x="52" y="604" width="346" height="44" rx="10" fill="#0A1A30" stroke="#22C55E" stroke-opacity="0.4"/>
+  <text x="72" y="511" fill="#E5E7EB" font-family="ui-monospace, monospace" font-size="12">CENTRAL DIGITAL IDENTIFICADA</text>
+  <text x="72" y="571" fill="#E5E7EB" font-family="ui-monospace, monospace" font-size="12">CABEAMENTO ESTRUTURADO &amp; ETIQUETADO</text>
+  <text x="72" y="631" fill="#86EFAC" font-family="ui-monospace, monospace" font-size="12">FONTE ESTABILIZADA + ZERO RUÍDO</text>
+  <text x="52" y="720" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="13">Manutenção simplificada e estética impecável</text>
+</svg>
