@@ -429,10 +429,11 @@
                 required
                 autocomplete="name"
                 maxlength="80"
+                aria-describedby="quote-name-error"
                 placeholder="Ex.: Carlos Silva"
                 class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-white/15 text-white placeholder-gray-500 focus:border-neon-cyan"
               >
-              <p data-error-for="name" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
+              <p id="quote-name-error" data-error-for="name" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
             </div>
 
             <div>
@@ -445,10 +446,11 @@
                 autocomplete="tel"
                 inputmode="tel"
                 maxlength="16"
+                aria-describedby="quote-phone-error"
                 placeholder="(11) 98184-6322"
                 class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-white/15 text-white placeholder-gray-500 focus:border-neon-cyan"
               >
-              <p data-error-for="phone" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
+              <p id="quote-phone-error" data-error-for="phone" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
             </div>
           </div>
 
@@ -459,6 +461,7 @@
                 id="quote-service"
                 name="service"
                 required
+                aria-describedby="quote-service-error"
                 class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-white/15 text-white focus:border-neon-cyan"
               >
                 <option value="">Selecione uma solução</option>
@@ -468,7 +471,7 @@
                 <option value="Interfonia &amp; Portões">Interfonia &amp; Portões</option>
                 <option value="Infraestrutura &amp; Contrato">Infraestrutura &amp; Contrato</option>
               </select>
-              <p data-error-for="service" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
+              <p id="quote-service-error" data-error-for="service" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
             </div>
 
             <div>
@@ -477,6 +480,7 @@
                 id="quote-property"
                 name="propertyType"
                 required
+                aria-describedby="quote-property-error"
                 class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-white/15 text-white focus:border-neon-cyan"
               >
                 <option value="">Selecione o perfil</option>
@@ -485,7 +489,7 @@
                 <option value="Residência">Residência</option>
                 <option value="Indústria / Galpão">Indústria / Galpão</option>
               </select>
-              <p data-error-for="propertyType" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
+              <p id="quote-property-error" data-error-for="propertyType" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
             </div>
           </div>
 
@@ -496,10 +500,11 @@
               name="details"
               rows="3"
               maxlength="500"
+              aria-describedby="quote-details-error"
               placeholder="Quantidade aproximada de câmeras, acessos, portões ou necessidade de manutenção..."
               class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-white/15 text-white placeholder-gray-500 focus:border-neon-cyan"
             ></textarea>
-            <p data-error-for="details" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
+            <p id="quote-details-error" data-error-for="details" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
           </div>
 
           <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">

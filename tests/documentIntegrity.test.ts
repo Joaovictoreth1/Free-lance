@@ -65,4 +65,15 @@ describe('index.html security, accessibility, and asset integrity', () => {
     expect(parsed['@type']).toBe('LocalBusiness');
     expect(parsed.name).toContain('Tecsafe');
   });
+
+  it('links every quote form control to its inline error element via aria-describedby', () => {
+    const fields = ['name', 'phone', 'service', 'propertyType', 'details'];
+    for (const field of fields) {
+      const control = doc.querySelector(`[name="${field}"]`);
+      const errorEl = doc.querySelector(`[data-error-for="${field}"]`);
+      expect(control).not.toBeNull();
+      expect(errorEl?.id).toBeTruthy();
+      expect(control?.getAttribute('aria-describedby')).toBe(errorEl?.id);
+    }
+  });
 });
