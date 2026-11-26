@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecsafe | Segurança Eletrônica e Tecnologia</title>
+  <meta name="description" content="Soluções completas em Segurança Eletrônica. Mais proteção para o que realmente importa: CFTV, Alarmes, Controle de Acesso Facial, Interfonia e Automação.">
+  <meta name="theme-color" content="#03050A">
+
+  <!-- Open Graph & Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Tecsafe | Segurança Eletrônica e Tecnologia">
+  <meta property="og:description" content="Soluções completas em CFTV, Alarmes Inteligentes, Controle de Acesso Facial, Interfonia e Infraestrutura Padronizada em São Paulo.">
+  <meta property="og:url" content="https://tecsafe.com.br/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="canonical" href="https://tecsafe.com.br/">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="manifest" href="./manifest.webmanifest">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Structured Data (LocalBusiness) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Tecsafe Segurança Eletrônica",
+      "description": "Soluções completas em Segurança Eletrônica: CFTV, Alarmes, Controle de Acesso Facial, Interfonia e Automação de Portões.",
+      "url": "https://tecsafe.com.br",
+      "telephone": "+55-11-98184-6322",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "R. Antônio de Jaboatão, 346 - Parque Boa Esperança",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP",
+        "postalCode": "08341-200",
+        "addressCountry": "BR"
+      }
+    }
+  </script>
+</head>
+<body class="antialiased selection:bg-neon-cyan selection:text-black">
+  <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
+  <!-- Custom Cursor Elements (activated only on fine-pointer + no-reduced-motion) -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-outline" aria-hidden="true"></div>
+
+  <!-- Header & Navigation -->
+  <header>
+    <nav class="fixed top-0 inset-x-0 z-40 glass-nav transition-all duration-300" id="navbar" aria-label="Navegação principal">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="flex items-center justify-between h-20">
+          <!-- Brand Logo -->
+          <a href="#inicio" class="hover-target flex-shrink-0 flex items-center gap-2.5 focus-visible:rounded-lg">
+            <svg class="w-7 h-7 text-neon-cyan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 2L4 5v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V5l-8-3z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 2v21"/>
+            </svg>
+            <span class="font-display font-bold text-2xl tracking-tight text-white">TEC<span class="text-neon-cyan">SAFE</span></span>
+          </a>
+
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex items-center space-x-2">
+            <a href="#solucoes" class="hover-target px-4 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors rounded-full hover:bg-white/5">Soluções</a>
+            <a href="#infra" class="hover-target px-4 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors rounded-full hover:bg-white/5">Infraestrutura</a>
+            <a href="#cases" class="hover-target px-4 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors rounded-full hover:bg-white/5">Cases</a>
+            <a href="#orcamento" class="hover-target px-4 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors rounded-full hover:bg-white/5">Orçamento</a>
+          </div>
+
+          <!-- Desktop WhatsApp CTA -->
+          <div class="hidden md:block">
+            <a
+              href="https://wa.me/5511981846322"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-whatsapp-link
+              class="hover-target group relative inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white transition-all duration-200 bg-neon-blue font-display rounded-full overflow-hidden hover:brightness-110"
+            >
+              <span class="relative flex items-center gap-2">
+                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M20.52 3.48A11.82 11.82 0 0012.06 0C5.48 0 .12 5.36.12 11.94c0 2.1.55 4.15 1.6 5.96L0 24l6.28-1.65a11.88 11.88 0 005.78 1.48h.01c6.58 0 11.94-5.36 11.94-11.94a11.85 11.85 0 00-3.49-8.41zm-8.45 18.34h-.01a9.89 9.89 0 01-5.04-1.38l-.36-.21-3.73.98 1-3.64-.24-.37a9.9 9.9 0 01-1.52-5.26c0-5.46 4.44-9.9 9.9-9.9 2.64 0 5.13 1.03 7 2.9a9.84 9.84 0 012.9 7c0 5.46-4.44 9.88-9.9 9.88zm5.43-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.21 5.09 4.5.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/>
+                </svg>
+                <span data-whatsapp-display>(11) 98184-6322</span>
+              </span>
+            </a>
+          </div>
+
+          <!-- Mobile Menu Toggle -->
+          <div class="md:hidden flex items-center">
+            <button
+              type="button"
+              id="mobile-menu-btn"
+              class="text-gray-300 hover:text-white p-2 rounded-lg"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+              aria-label="Abrir menu de navegação"
+            >
+              <svg id="mobile-menu-icon-open" class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+              </svg>
+              <svg id="mobile-menu-icon-close" class="w-7 h-7 hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation Drawer -->
+      <div
+        id="mobile-menu"
+        hidden
+        class="hidden md:hidden bg-dark-900/95 backdrop-blur-xl border-t border-white/10 px-6 py-6 space-y-3"
+      >
+        <a href="#solucoes" class="block px-4 py-3 text-base font-medium text-gray-200 hover:text-white hover:bg-white/5 rounded-xl transition-colors">Soluções</a>
+        <a href="#infra" class="block px-4 py-3 text-base font-medium text-gray-200 hover:text-white hover:bg-white/5 rounded-xl transition-colors">Infraestrutura</a>
+        <a href="#cases" class="block px-4 py-3 text-base font-medium text-gray-200 hover:text-white hover:bg-white/5 rounded-xl transition-colors">Cases</a>
+        <a href="#orcamento" class="block px-4 py-3 text-base font-medium text-gray-200 hover:text-white hover:bg-white/5 rounded-xl transition-colors">Solicitar Orçamento</a>
+        <div class="pt-3 border-t border-white/10">
+          <a
+            href="https://wa.me/5511981846322"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-whatsapp-link
+            class="w-full inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-bold text-white bg-neon-blue rounded-full font-display"
+          >
+            WhatsApp: <span data-whatsapp-display>(11) 98184-6322</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo-principal">
+    <!-- Hero Section -->
+    <section id="inicio" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 pb-16">
+      <!-- Ambient Glows -->
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-neon-blue/10 rounded-full blur-[120px] pointer-events-none" aria-hidden="true"></div>
+      <div class="absolute top-1/4 right-1/4 w-[400px] h-[400px] bg-neon-cyan/10 rounded-full blur-[100px] pointer-events-none" aria-hidden="true"></div>
+      <div class="absolute inset-0 hero-grid-bg pointer-events-none" aria-hidden="true"></div>
+
+      <div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <!-- Hero Text -->
+        <div class="text-left reveal-up">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neon-blue/10 border border-neon-blue/20 text-neon-cyan text-xs font-mono uppercase tracking-wider mb-6">
+            <span class="w-2 h-2 rounded-full bg-neon-cyan animate-pulse" aria-hidden="true"></span>
+            Segurança que conecta Pessoas e Patrimônios
+          </div>
+          <h1 class="font-display text-5xl lg:text-7xl font-black text-white leading-[1.1] tracking-tight mb-6">
+            Tecnologia e <br>
+            <span class="text-gradient">Serviço de Elite.</span>
+          </h1>
+          <p class="text-gray-300 text-lg md:text-xl max-w-xl font-light leading-relaxed mb-8">
+            Soluções completas em <strong class="text-white font-semibold">Segurança Eletrônica</strong>. Mais proteção, monitoramento inteligente e automação para o que realmente importa.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="#solucoes" class="hover-target px-8 py-4 rounded-full bg-white text-dark-900 font-display font-bold text-center hover:scale-105 transition-transform inline-flex items-center justify-center gap-2">
+              Explorar Soluções
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14m0 0l-6-6m6 6l6-6"/>
+              </svg>
+            </a>
+            <a href="#orcamento" class="hover-target px-8 py-4 rounded-full bg-transparent border border-white/20 text-white font-display font-bold text-center hover:bg-white/5 transition-colors inline-flex items-center justify-center gap-2">
+              Solicitar Orçamento
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Visual -->
+        <div class="relative reveal-up lg:ml-auto">
+          <div class="relative w-full max-w-md mx-auto">
+            <div class="tilt-card relative z-10 rounded-[2rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(0,87,255,0.2)] bg-dark-800">
+              <img
+                src="./assets/hero-security.svg"
+                alt="Painel de monitoramento inteligente Tecsafe com CFTV 4K, acesso facial e proteção perimetral"
+                width="600"
+                height="720"
+                class="w-full h-auto object-cover"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infinite Tech Marquee -->
+    <div class="marquee-container py-4" aria-hidden="true">
+      <div class="marquee-content font-display font-bold text-sm tracking-[0.28em] uppercase text-gray-400 flex items-center">
+        <span class="mx-8 text-neon-cyan">•</span> CFTV MONITORAMENTO
+        <span class="mx-8 text-neon-blue">•</span> ALARMES INTELIGENTES
+        <span class="mx-8 text-neon-cyan">•</span> CONTROLE DE ACESSO
+        <span class="mx-8 text-neon-blue">•</span> INTERFONES
+        <span class="mx-8 text-neon-cyan">•</span> PORTÕES AUTOMÁTICOS
+        <span class="mx-8 text-neon-blue">•</span> AUTOMAÇÃO
+        <span class="mx-8 text-neon-cyan">•</span> CFTV MONITORAMENTO
+        <span class="mx-8 text-neon-blue">•</span> ALARMES INTELIGENTES
+        <span class="mx-8 text-neon-cyan">•</span> CONTROLE DE ACESSO
+        <span class="mx-8 text-neon-blue">•</span> INTERFONES
+        <span class="mx-8 text-neon-cyan">•</span> PORTÕES AUTOMÁTICOS
+        <span class="mx-8 text-neon-blue">•</span> AUTOMAÇÃO
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="solucoes" class="py-28 relative bg-dark-800">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-16 reveal-up">
+          <span class="text-neon-cyan font-mono uppercase text-sm tracking-widest mb-4 block">Nossa Expertise</span>
+          <h2 class="font-display text-4xl md:text-5xl font-black text-white">Ecossistema de Segurança</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Service 1: CFTV -->
+          <article id="solucao-cftv" class="tilt-card hover-target reveal-up">
+            <div class="glass-panel p-8 rounded-3xl h-full border border-white/5 glow-border group">
+              <div class="w-14 h-14 rounded-2xl bg-dark-900 border border-white/10 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:border-neon-cyan/50 transition-all">
+                <svg class="w-7 h-7 text-gray-300 group-hover:text-neon-cyan transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.55-2.28A1 1 0 0121 8.62v6.76a1 1 0 01-1.45.9L15 14M4 7h9a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V9a2 2 0 012-2z"/>
+                </svg>
+              </div>
+              <h3 class="font-display text-xl font-bold text-white mb-3">CFTV</h3>
+              <p class="text-gray-300 text-sm leading-relaxed">Monitoramento 24 horas em alta definição. Inteligência de vídeo para detecção de intrusão e reconhecimento veicular.</p>
+            </div>
+          </article>
+
+          <!-- Service 2: Alarmes -->
+          <article id="solucao-alarmes" class="tilt-card hover-target reveal-up">
+            <div class="glass-panel p-8 rounded-3xl h-full border border-white/5 glow-border group">
+              <div class="w-14 h-14 rounded-2xl bg-dark-900 border border-white/10 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:border-neon-blue/50 transition-all">
+                <svg class="w-7 h-7 text-gray-300 group-hover:text-neon-blue transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.4-1.4A2 2 0 0118 14.17V11a6 6 0 10-12 0v3.17a2 2 0 01-.59 1.42L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+                </svg>
+              </div>
+              <h3 class="font-display text-xl font-bold text-white mb-3">Alarmes</h3>
+              <p class="text-gray-300 text-sm leading-relaxed">Proteção perimetral e interna. Sensores de alta precisão integrados a aplicativos mobile para gestão em tempo real.</p>
+            </div>
+          </article>
+
+          <!-- Service 3: Controle de Acesso -->
+          <article id="solucao-acesso" class="tilt-card hover-target reveal-up">
+            <div class="glass-panel p-8 rounded-3xl h-full border border-white/5 glow-border group">
+              <div class="w-14 h-14 rounded-2xl bg-dark-900 border border-white/10 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:border-neon-cyan/50 transition-all">
+                <svg class="w-7 h-7 text-gray-300 group-hover:text-neon-cyan transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"/>
+                </svg>
+              </div>
+              <h3 class="font-display text-xl font-bold text-white mb-3">Controle de Acesso</h3>
+              <p class="text-gray-300 text-sm leading-relaxed">Mais segurança e organização com biometria facial, tags e senhas para condomínios e empresas.</p>
+            </div>
+          </article>
+
+          <!-- Service 4: Interfones & Portões -->
+          <article id="solucao-interfonia" class="tilt-card hover-target reveal-up">
+            <div class="glass-panel p-8 rounded-3xl h-full border border-white/5 glow-border group">
+              <div class="w-14 h-14 rounded-2xl bg-dark-900 border border-white/10 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:border-neon-blue/50 transition-all">
+                <svg class="w-7 h-7 text-gray-300 group-hover:text-neon-blue transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 21h18M5 21V5a2 2 0 012-2h10a2 2 0 012 2v16M9 9h.01M15 12h.01"/>
+                </svg>
+              </div>
+              <h3 class="font-display text-xl font-bold text-white mb-3">Interfones &amp; Portões</h3>
+              <p class="text-gray-300 text-sm leading-relaxed">Comunicação com mais praticidade e automatização de portões com motores rápidos e seguros.</p>
+            </div>
+          </article>
+
+          <!-- Service 5: Instalação & Contratos -->
+          <article id="solucao-contratos" class="tilt-card hover-target reveal-up md:col-span-2">
+            <div class="glass-panel p-8 rounded-3xl h-full border border-white/5 glow-border group flex flex-col sm:flex-row items-center gap-8 relative overflow-hidden">
+              <div class="absolute right-0 top-0 w-64 h-64 bg-neon-cyan/5 rounded-full blur-3xl pointer-events-none" aria-hidden="true"></div>
+              <div class="flex-1">
+                <div class="w-14 h-14 rounded-2xl bg-dark-900 border border-white/10 flex items-center justify-center mb-6">
+                  <svg class="w-7 h-7 text-neon-cyan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+                  </svg>
+                </div>
+                <h3 class="font-display text-2xl font-bold text-white mb-3">Instalação &amp; Contratos</h3>
+                <p class="text-gray-300 text-sm leading-relaxed mb-6">Projetos personalizados de infraestrutura, manutenção preventiva/corretiva e contratos que garantem a tranquilidade do seu patrimônio o ano todo.</p>
+                <a href="#orcamento" class="text-neon-cyan font-bold text-sm tracking-wider uppercase inline-flex items-center gap-2 hover:gap-3 transition-all">
+                  Falar com Especialista
+                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6l6 6-6 6"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infrastructure Section -->
+    <section id="infra" class="py-28 relative bg-dark-900 border-t border-white/5 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div class="order-2 lg:order-1 reveal-up">
+            <span class="text-neon-cyan font-mono uppercase text-sm tracking-widest mb-4 block">O Diferencial Tecsafe</span>
+            <h2 class="font-display text-4xl md:text-5xl font-black text-white mb-6">Infraestrutura Limpa e Padronizada.</h2>
+            <p class="text-gray-300 text-lg mb-8 leading-relaxed">
+              A durabilidade de um sistema de segurança começa nos bastidores. Nossa execução garante painéis organizados, fontes dimensionadas corretamente e cabeamento estruturado. Sem fios soltos, sem manutenções surpresa.
+            </p>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-center gap-3 text-gray-200">
+                <svg class="w-5 h-5 text-neon-cyan flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                </svg>
+                Identificação e documentação completa de rede.
+              </li>
+              <li class="flex items-center gap-3 text-gray-200">
+                <svg class="w-5 h-5 text-neon-cyan flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                </svg>
+                Fontes estabilizadas com proteção contra surtos (DPS).
+              </li>
+              <li class="flex items-center gap-3 text-gray-200">
+                <svg class="w-5 h-5 text-neon-cyan flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                </svg>
+                Organização severa de racks, switches PoE e quadros.
+              </li>
+            </ul>
+          </div>
+
+          <div class="order-1 lg:order-2 reveal-up relative">
+            <div class="absolute -inset-4 bg-gradient-to-r from-neon-blue/20 to-neon-cyan/20 blur-2xl rounded-[3rem] opacity-50" aria-hidden="true"></div>
+            <div class="tilt-card glass-panel p-3 rounded-[2rem] border border-white/10 relative z-10">
+              <img
+                src="./assets/infra-rack.svg"
+                alt="Rack de infraestrutura padronizada Tecsafe com patch panel identificado, switch PoE e proteção DPS"
+                width="640"
+                height="560"
+                loading="lazy"
+                class="w-full h-auto rounded-[1.5rem] object-cover"
+              >
+              <div class="absolute top-6 right-6 bg-dark-900/85 backdrop-blur border border-white/10 px-4 py-2 rounded-full flex items-center gap-2 shadow-xl">
+                <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse" aria-hidden="true"></span>
+                <span class="text-xs font-mono text-white">SISTEMA ONLINE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cases Section -->
+    <section id="cases" class="py-28 bg-dark-800 relative z-10 border-t border-white/5">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8 relative">
+        <div class="text-center mb-16 reveal-up">
+          <span class="text-neon-cyan font-display font-bold tracking-[0.2em] uppercase text-xs mb-4 block">Execução em Foco</span>
+          <h2 class="font-display text-4xl md:text-5xl font-black text-white leading-tight">
+            Cases Reais. Resultados Reais.
+          </h2>
+          <p class="text-gray-300 max-w-2xl mx-auto text-sm mt-6">
+            Acompanhe o padrão de transformação e o resultado final da nossa execução em modernização de interfonia e controle de acesso facial.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-start max-w-5xl mx-auto">
+          <!-- Case 1 -->
+          <article class="tilt-card hover-target reveal-up">
+            <div class="glass-panel p-3 rounded-[2rem] border border-white/10 relative overflow-hidden bg-dark-900 shadow-2xl">
+              <div class="absolute top-6 left-6 z-20 flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-neon-cyan animate-pulse" aria-hidden="true"></span>
+                <span class="text-[10px] text-white font-mono uppercase bg-dark-900/85 px-2.5 py-1 rounded backdrop-blur-sm border border-white/10">CASE // ANTES_E_DEPOIS</span>
+              </div>
+              <img
+                src="./assets/case-interfonia.svg"
+                alt="Comparativo antes e depois de modernização de interfonia condominial com cabeamento estruturado"
+                width="450"
+                height="800"
+                loading="lazy"
+                class="w-full aspect-[9/16] object-cover rounded-2xl relative z-10 border border-white/5"
+              >
+            </div>
+            <div class="mt-6 px-2">
+              <h3 class="font-display font-bold text-white text-xl">Modernização de Interfonia</h3>
+              <p class="text-gray-300 text-sm mt-2">A diferença que um cabeamento estruturado e equipamentos modernos fazem na estética e no funcionamento contínuo do condomínio.</p>
+            </div>
+          </article>
+
+          <!-- Case 2 -->
+          <article class="tilt-card hover-target reveal-up">
+            <div class="glass-panel p-3 rounded-[2rem] border border-white/10 relative overflow-hidden bg-dark-900 shadow-2xl">
+              <div class="absolute top-6 left-6 z-20 flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse" aria-hidden="true"></span>
+                <span class="text-[10px] text-white font-mono uppercase bg-dark-900/85 px-2.5 py-1 rounded backdrop-blur-sm border border-white/10">CASE // ACESSO_FACIAL</span>
+              </div>
+              <img
+                src="./assets/case-acesso-facial.svg"
+                alt="Terminal de controle de acesso inteligente com reconhecimento facial sem toque"
+                width="450"
+                height="800"
+                loading="lazy"
+                class="w-full aspect-[9/16] object-cover rounded-2xl relative z-10 border border-white/5"
+              >
+            </div>
+            <div class="mt-6 px-2">
+              <h3 class="font-display font-bold text-white text-xl">Controle de Acesso Inteligente</h3>
+              <p class="text-gray-300 text-sm mt-2">Liberação rápida, segura e sem toque (touchless) utilizando terminais de reconhecimento facial de última geração.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote / Lead Capture Section -->
+    <section id="orcamento" class="py-28 bg-dark-900 border-t border-white/5 relative overflow-hidden">
+      <div class="max-w-4xl mx-auto px-6 lg:px-8 relative z-10">
+        <div class="text-center mb-12 reveal-up">
+          <span class="text-neon-cyan font-mono uppercase text-xs tracking-widest mb-3 block">Atendimento Técnico</span>
+          <h2 class="font-display text-4xl md:text-5xl font-black text-white mb-4">Solicite seu Orçamento</h2>
+          <p class="text-gray-300 text-base max-w-2xl mx-auto">
+            Preencha os dados do seu projeto para montar um resumo estruturado e iniciar o atendimento direto com nossa equipe técnica no WhatsApp.
+          </p>
+        </div>
+
+        <form id="quote-form" novalidate class="glass-panel p-8 md:p-10 rounded-3xl border border-white/10 space-y-6 reveal-up">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label for="quote-name" class="block text-sm font-medium text-gray-200 mb-2">Nome completo *</label>
+              <input
+                type="text"
+                id="quote-name"
+                name="name"
+                required
+                autocomplete="name"
+                maxlength="80"
+                aria-describedby="quote-name-error"
+                placeholder="Ex.: Carlos Silva"
+                class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-white/15 text-white placeholder-gray-500 focus:border-neon-cyan"
+              >
+              <p id="quote-name-error" data-error-for="name" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
+            </div>
+
+            <div>
+              <label for="quote-phone" class="block text-sm font-medium text-gray-200 mb-2">Telefone / WhatsApp *</label>
+              <input
+                type="tel"
+                id="quote-phone"
+                name="phone"
+                required
+                autocomplete="tel"
+                inputmode="tel"
+                maxlength="16"
+                aria-describedby="quote-phone-error"
+                placeholder="(11) 98184-6322"
+                class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-white/15 text-white placeholder-gray-500 focus:border-neon-cyan"
+              >
+              <p id="quote-phone-error" data-error-for="phone" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label for="quote-service" class="block text-sm font-medium text-gray-200 mb-2">Serviço desejado *</label>
+              <select
+                id="quote-service"
+                name="service"
+                required
+                aria-describedby="quote-service-error"
+                class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-white/15 text-white focus:border-neon-cyan"
+              >
+                <option value="">Selecione uma solução</option>
+                <option value="CFTV &amp; Monitoramento">CFTV &amp; Monitoramento</option>
+                <option value="Alarmes Inteligentes">Alarmes Inteligentes</option>
+                <option value="Controle de Acesso Facial">Controle de Acesso Facial</option>
+                <option value="Interfonia &amp; Portões">Interfonia &amp; Portões</option>
+                <option value="Infraestrutura &amp; Contrato">Infraestrutura &amp; Contrato</option>
+              </select>
+              <p id="quote-service-error" data-error-for="service" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
+            </div>
+
+            <div>
+              <label for="quote-property" class="block text-sm font-medium text-gray-200 mb-2">Tipo de imóvel *</label>
+              <select
+                id="quote-property"
+                name="propertyType"
+                required
+                aria-describedby="quote-property-error"
+                class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-white/15 text-white focus:border-neon-cyan"
+              >
+                <option value="">Selecione o perfil</option>
+                <option value="Condomínio">Condomínio</option>
+                <option value="Empresa / Comércio">Empresa / Comércio</option>
+                <option value="Residência">Residência</option>
+                <option value="Indústria / Galpão">Indústria / Galpão</option>
+              </select>
+              <p id="quote-property-error" data-error-for="propertyType" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
+            </div>
+          </div>
+
+          <div>
+            <label for="quote-details" class="block text-sm font-medium text-gray-200 mb-2">Detalhes do projeto (opcional)</label>
+            <textarea
+              id="quote-details"
+              name="details"
+              rows="3"
+              maxlength="500"
+              aria-describedby="quote-details-error"
+              placeholder="Quantidade aproximada de câmeras, acessos, portões ou necessidade de manutenção..."
+              class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-white/15 text-white placeholder-gray-500 focus:border-neon-cyan"
+            ></textarea>
+            <p id="quote-details-error" data-error-for="details" class="hidden mt-1.5 text-xs text-red-400" role="alert"></p>
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
+            <p class="text-xs text-gray-400">Seus dados são usados apenas para iniciar o atendimento técnico (LGPD).</p>
+            <button
+              type="submit"
+              class="hover-target w-full sm:w-auto px-8 py-4 rounded-full bg-neon-blue hover:brightness-110 text-white font-display font-bold transition-all"
+            >
+              Preparar Atendimento no WhatsApp
+            </button>
+          </div>
+
+          <div
+            id="quote-feedback"
+            tabindex="-1"
+            role="status"
+            aria-live="polite"
+            class="hidden p-5 rounded-2xl bg-emerald-950/60 border border-emerald-500/40 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4"
+          >
+            <div>
+              <p class="text-emerald-300 font-semibold text-sm">Resumo validado e pronto para envio.</p>
+              <p class="text-gray-300 text-xs mt-1">Clique ao lado para abrir o WhatsApp com sua solicitação preenchida.</p>
+            </div>
+            <a
+              id="quote-whatsapp-handoff"
+              href="https://wa.me/5511981846322"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-emerald-500 hover:bg-emerald-400 text-dark-900 font-bold text-sm transition-colors flex-shrink-0"
+            >
+              Abrir WhatsApp
+            </a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact Banner -->
+    <section class="py-20 bg-neon-blue border-y border-white/10 relative overflow-hidden">
+      <div class="max-w-4xl mx-auto px-6 text-center relative z-10 reveal-up">
+        <h2 class="font-display text-3xl md:text-5xl font-black text-white mb-6">Pronto para elevar a segurança do seu patrimônio?</h2>
+        <p class="text-blue-100 text-lg mb-8">Fale diretamente com nossa equipe técnica. Projetos sob medida para condomínios, empresas, residências e comércios.</p>
+        <a
+          href="https://wa.me/5511981846322"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-whatsapp-link
+          class="hover-target inline-flex items-center gap-3 px-8 py-4 bg-dark-900 text-white rounded-full font-bold text-lg hover:scale-105 transition-transform shadow-[0_0_40px_rgba(0,0,0,0.45)]"
+        >
+          <span class="w-2.5 h-2.5 rounded-full bg-green-400" aria-hidden="true"></span>
+          <span data-whatsapp-display>(11) 98184-6322</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark-900 pt-20 pb-10 border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-2.5 mb-6">
+            <svg class="w-7 h-7 text-neon-cyan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 2L4 5v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V5l-8-3z"/>
+            </svg>
+            <span class="font-display font-bold text-2xl text-white">TEC<span class="text-neon-cyan">SAFE</span></span>
+          </div>
+          <p class="text-gray-300 text-sm leading-relaxed max-w-sm mb-6">
+            Tecnologia, Confiança e Atendimento Especializado. Mais proteção para o que realmente importa.
+          </p>
+          <div class="flex space-x-4">
+            <a
+              href="https://wa.me/5511981846322"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-whatsapp-link
+              aria-label="WhatsApp Tecsafe"
+              class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-300 hover:text-neon-cyan hover:bg-white/10 transition-colors"
+            >
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20.52 3.48A11.82 11.82 0 0012.06 0C5.48 0 .12 5.36.12 11.94c0 2.1.55 4.15 1.6 5.96L0 24l6.28-1.65a11.88 11.88 0 005.78 1.48h.01c6.58 0 11.94-5.36 11.94-11.94a11.85 11.85 0 00-3.49-8.41z"/>
+              </svg>
+            </a>
+            <a
+              href="https://instagram.com/tecsafeseguranca"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-instagram-link
+              aria-label="Instagram Tecsafe"
+              class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-300 hover:text-neon-cyan hover:bg-white/10 transition-colors"
+            >
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-white font-bold mb-6 font-display text-base">Soluções</h3>
+          <ul class="space-y-3 text-sm text-gray-300">
+            <li><a href="#solucao-cftv" class="hover:text-neon-cyan transition-colors">CFTV &amp; Câmeras</a></li>
+            <li><a href="#solucao-alarmes" class="hover:text-neon-cyan transition-colors">Alarmes Inteligentes</a></li>
+            <li><a href="#solucao-acesso" class="hover:text-neon-cyan transition-colors">Controle de Acesso</a></li>
+            <li><a href="#solucao-interfonia" class="hover:text-neon-cyan transition-colors">Interfonia &amp; Portões</a></li>
+            <li><a href="#solucao-contratos" class="hover:text-neon-cyan transition-colors">Instalação &amp; Contratos</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-white font-bold mb-6 font-display text-base">Contato</h3>
+          <ul class="space-y-4 text-sm text-gray-300">
+            <li>
+              <address class="not-italic">
+                R. Antônio de Jaboatão, 346<br>
+                Parque Boa Esperança<br>
+                São Paulo - SP, 08341-200
+              </address>
+            </li>
+            <li>
+              <a href="tel:+5511981846322" class="hover:text-neon-cyan transition-colors" data-whatsapp-display>(11) 98184-6322</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-gray-400 text-xs">
+          &copy; <span id="copyright-year">2026</span> Tecsafe Segurança Eletrônica. Todos os direitos reservados.
+        </p>
+        <div class="flex gap-6 text-xs text-gray-400">
+          <button type="button" data-legal-modal="privacy" class="hover:text-white transition-colors">Política de Privacidade</button>
+          <button type="button" data-legal-modal="terms" class="hover:text-white transition-colors">Termos de Serviço</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Accessible Legal Modal (LGPD & Terms) -->
+  <dialog
+    id="legal-modal"
+    aria-labelledby="legal-modal-title"
+    class="legal-modal bg-dark-800 text-white border border-white/15 rounded-3xl p-0 max-w-lg w-[92vw] shadow-2xl"
+  >
+    <div class="p-6 md:p-8">
+      <div class="flex items-start justify-between gap-4 mb-4">
+        <div>
+          <h2 id="legal-modal-title" class="font-display text-xl font-bold text-white">Documento Legal</h2>
+          <p id="legal-modal-updated" class="text-xs font-mono text-neon-cyan mt-1"></p>
+        </div>
+        <button
+          type="button"
+          id="legal-modal-close"
+          aria-label="Fechar janela"
+          class="p-2 rounded-lg text-gray-400 hover:text-white hover:bg-white/10 transition-colors"
+        >
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div id="legal-modal-body" class="space-y-3"></div>
+    </div>
+  </dialog>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

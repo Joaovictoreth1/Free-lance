@@ -1,0 +1,17 @@
+{
+  "name": "Tecsafe Segurança Eletrônica",
+  "short_name": "Tecsafe",
+  "description": "Soluções completas em Segurança Eletrônica: CFTV, Alarmes, Controle de Acesso, Interfonia e Automação.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#03050A",
+  "theme_color": "#03050A",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

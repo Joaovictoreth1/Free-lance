@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 800" fill="none" role="img" aria-label="Case de controle de acesso inteligente com reconhecimento facial sem toque">
+  <defs>
+    <linearGradient id="case2Bg" x1="0" y1="0" x2="450" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#07152B"/>
+      <stop offset="100%" stop-color="#03050A"/>
+    </linearGradient>
+  </defs>
+  <rect width="450" height="800" fill="url(#case2Bg)"/>
+  <!-- Terminal bezel -->
+  <rect x="64" y="106" width="322" height="588" rx="34" fill="#050A14" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="2.5"/>
+  <rect x="86" y="132" width="278" height="440" rx="22" fill="#0A1426" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <!-- Face scan reticle -->
+  <circle cx="225" cy="316" r="88" stroke="#00F0FF" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="10 8"/>
+  <path d="M160 250H188M160 250V278M290 250H262M290 250V278M160 382H188M160 382V354M290 382H262M290 382V354" stroke="#00F0FF" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="225" cy="296" r="24" stroke="#E5E7EB" stroke-width="2.5"/>
+  <path d="M188 358C194 334 256 334 262 358" stroke="#E5E7EB" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="145" y1="316" x2="305" y2="316" stroke="#00F0FF" stroke-width="2" stroke-opacity="0.8"/>
+  <!-- Verification badge -->
+  <rect x="118" y="454" width="214" height="84" rx="16" fill="#052E16" fill-opacity="0.65" stroke="#22C55E" stroke-opacity="0.55"/>
+  <text x="225" y="490" fill="#86EFAC" font-family="ui-monospace, monospace" font-size="13" font-weight="700" text-anchor="middle">ACESSO LIBERADO</text>
+  <text x="225" y="516" fill="#D1FAE5" font-family="ui-monospace, monospace" font-size="11" text-anchor="middle">TOUCHLESS // 0.24s</text>
+  <!-- Bottom terminal footer -->
+  <text x="225" y="618" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="middle">BIOMETRIA FACIAL ANTI-SPOOFING</text>
+  <text x="225" y="646" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">Registro em nuvem • Tag • Senha • App</text>
+</svg>
