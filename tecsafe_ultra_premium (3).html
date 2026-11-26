@@ -467,6 +467,61 @@
         </div>
     </section>
 
+    <section id="orientacao" aria-labelledby="quote-title" class="border-t border-white/10 bg-dark-800 py-20">
+        <div class="mx-auto max-w-4xl space-y-5 px-6">
+            <h2 id="quote-title" class="font-display text-3xl font-bold text-white">Prepare seu pedido de orçamento</h2>
+            <p class="text-gray-300">Escolha um cenário para ver o que vale a pena conferir antes do atendimento. Não informe senhas, códigos de acesso ou endereço completo.</p>
+            <div class="grid gap-3 sm:grid-cols-2">
+                <details class="rounded-xl border border-white/20 bg-dark-900 p-4">
+                    <summary class="cursor-pointer py-2 font-bold text-white">Câmeras (CFTV)</summary>
+                    <ul class="ml-5 mt-3 list-disc space-y-2 text-gray-300">
+                        <li>Informe quantas áreas internas e externas deseja cobrir.</li>
+                        <li>Indique se há rede ou energia perto dos pontos pretendidos.</li>
+                        <li>Defina por quanto tempo as gravações devem ser mantidas.</li>
+                    </ul>
+                </details>
+                <details class="rounded-xl border border-white/20 bg-dark-900 p-4">
+                    <summary class="cursor-pointer py-2 font-bold text-white">Alarmes</summary>
+                    <ul class="ml-5 mt-3 list-disc space-y-2 text-gray-300">
+                        <li>Conte portas e janelas que precisam de sensores.</li>
+                        <li>Mencione se animais circulam pelo local.</li>
+                        <li>Informe se já existe uma central de alarme.</li>
+                    </ul>
+                </details>
+                <details class="rounded-xl border border-white/20 bg-dark-900 p-4">
+                    <summary class="cursor-pointer py-2 font-bold text-white">Controle de acesso</summary>
+                    <ul class="ml-5 mt-3 list-disc space-y-2 text-gray-300">
+                        <li>Liste as entradas que precisam de controle.</li>
+                        <li>Estime quantas pessoas usam as entradas diariamente.</li>
+                        <li>Indique se há porteiro ou portaria remota.</li>
+                    </ul>
+                </details>
+                <details class="rounded-xl border border-white/20 bg-dark-900 p-4">
+                    <summary class="cursor-pointer py-2 font-bold text-white">Interfone ou portão</summary>
+                    <ul class="ml-5 mt-3 list-disc space-y-2 text-gray-300">
+                        <li>Indique se é instalação nova ou substituição.</li>
+                        <li>Informe o tipo de portão ou a quantidade de pontos de interfone.</li>
+                        <li>Se souber, anote marca e modelo do equipamento atual.</li>
+                    </ul>
+                </details>
+            </div>
+            <form id="quote-form" class="rounded-xl border border-white/20 bg-dark-900 p-4" hidden>
+                <label for="quote-service" class="block font-bold text-white">Serviço para consultar</label>
+                <select id="quote-service" class="mt-2 min-h-11 rounded-lg border border-white/20 bg-dark-800 px-3 text-white">
+                    <option value="cameras">Câmeras (CFTV)</option>
+                    <option value="alarms">Alarmes</option>
+                    <option value="access">Controle de acesso</option>
+                    <option value="gates">Interfone ou portão</option>
+                </select>
+                <p class="mt-3 text-sm text-gray-300">O link abre o WhatsApp com uma mensagem editável. Nada é enviado automaticamente.</p>
+                <a id="quote-link" target="_blank" rel="noopener noreferrer"
+                   class="mt-3 inline-flex min-h-11 items-center rounded-lg border border-white/30 px-4 font-bold text-white focus-visible:outline focus-visible:outline-2">
+                    Abrir conversa com rascunho
+                </a>
+            </form>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section class="py-24 bg-neon-blue border-y border-white/10 relative overflow-hidden">
         <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xKSIvPjwvc3ZnPg==')] opacity-30 mix-blend-overlay"></div>
@@ -540,6 +595,7 @@
     </footer>
 
     <!-- Scripts -->
+    <script type="module" src="quote.mjs"></script>
     <script>
         // Custom Cursor Logic
         const menuButton = document.getElementById('mobile-menu-btn');
